@@ -1,0 +1,16 @@
+package test;
+syntax = "proto3";
+
+message TestRequest {
+	string	aString = 1;
+	int32		anInt	= 2;
+	bool		aBool = 3;
+};
+message TestResponse {
+	string	aStringRes = 1;
+	int32		anIntRes	= 2;
+	bool		aBoolRes = 3;
+};
+service TestService {
+	rpc TestMethod( TestRequest ) returns ( TestResponse ) {}
+}
