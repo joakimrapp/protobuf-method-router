@@ -1,6 +1,6 @@
 {
   "name": "@jrapp/protobuf-method-router",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Url templating, can partially expand urls",
   "main": "./src/index.js",
   "scripts": {
